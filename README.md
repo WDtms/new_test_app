@@ -1,16 +1,10 @@
 # new_test_app
 
-A new Flutter project.
+Запускается только на айосе и андроиде
 
-## Getting Started
+Чтобы запустить на одной из этих платформ необходимо иметь на компе флаттер
 
-This project is a starting point for a Flutter application.
+Флаттер, с которым компилился проект - 3.0.1
+Чтобы получить такую версию достаточно вызвать [flutter channel stable]
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Затем необходимо запустить эмулятор / подключить по проводу устройство и скомпилить его через какую-либо студию
