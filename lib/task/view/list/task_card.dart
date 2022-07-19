@@ -11,7 +11,7 @@ class TaskCard extends StatelessWidget {
   Widget build(BuildContext context) {
     return Row(
       children: [
-        TaskCheckbox(color: Colors.black, isCompleted: task.isCompleted),
+        TaskCheckbox(color: task.isCompleted ? Colors.green : Colors.blueAccent, isCompleted: task.isCompleted),
         const SizedBox(width: 15),
         Expanded(
           child: Text(task.title),

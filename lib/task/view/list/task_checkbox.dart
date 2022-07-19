@@ -19,7 +19,7 @@ class TaskCheckbox extends StatelessWidget {
         decoration: BoxDecoration(
           color: isCompleted ? color : Colors.white,
           borderRadius: BorderRadius.circular(8.0),
-          border: Border.all(width: 2.0, color: Colors.black),
+          border: Border.all(width: 2.0, color: color),
         ),
         child: isCompleted ? const Center(
           child: Icon(Icons.check, color: Colors.white, size: 15.0,),
